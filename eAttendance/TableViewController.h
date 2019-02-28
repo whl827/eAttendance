@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ValidateLocationController.h"
 
-@interface TableViewController : UITableViewController
+@interface TableViewController : UITableViewController <UITableViewDataSource, UITableViewDelegate>
+
+@property int rowNo;
 
 @end

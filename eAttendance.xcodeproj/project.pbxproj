@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CA9A901F3AFEB03F2263DFD /* libPods-eAttendance.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F1F31BBCDC7A1A9CCBB42B /* libPods-eAttendance.a */; };
 		3F57CFA81FD343E300E8A68B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F57CFA71FD343E300E8A68B /* main.m */; };
 		3F57CFAB1FD343E300E8A68B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F57CFAA1FD343E300E8A68B /* AppDelegate.m */; };
 		3F57CFAE1FD343E300E8A68B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F57CFAD1FD343E300E8A68B /* ViewController.m */; };
@@ -15,6 +16,18 @@
 		3F57CFB61FD343E300E8A68B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F57CFB41FD343E300E8A68B /* LaunchScreen.storyboard */; };
 		3F57CFC11FD343E300E8A68B /* eAttendanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F57CFC01FD343E300E8A68B /* eAttendanceTests.m */; };
 		3F57CFCC1FD343E300E8A68B /* eAttendanceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F57CFCB1FD343E300E8A68B /* eAttendanceUITests.m */; };
+		3F57CFDE1FD346A900E8A68B /* RegisteredClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F57CFDD1FD346A900E8A68B /* RegisteredClass.m */; };
+		3F57CFE11FD347E700E8A68B /* RegisteredClassModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F57CFE01FD347E700E8A68B /* RegisteredClassModel.m */; };
+		3F57CFE41FD365CD00E8A68B /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F57CFE31FD365CD00E8A68B /* TableViewController.m */; };
+		3F57CFE71FD39F4B00E8A68B /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F57CFE61FD39F4B00E8A68B /* AddViewController.m */; };
+		3F57CFF01FD3B9FA00E8A68B /* ValidateLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F57CFEF1FD3B9FA00E8A68B /* ValidateLocationController.m */; };
+		3F57CFF31FD3CE3100E8A68B /* TakePhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F57CFF21FD3CE3100E8A68B /* TakePhotoController.m */; };
+		3F57CFF61FD3CE5500E8A68B /* SuccessController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F57CFF51FD3CE5500E8A68B /* SuccessController.m */; };
+		3F57CFF91FD400C100E8A68B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F57CFF81FD400C100E8A68B /* MapKit.framework */; };
+		3F57CFFB1FD4060200E8A68B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F57CFFA1FD4060200E8A68B /* CoreLocation.framework */; };
+		3F57D00E1FD4934600E8A68B /* FacebookController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F57D00D1FD4934600E8A68B /* FacebookController.m */; };
+		6A04F7ACCE190E1CA5A42922 /* libPods-eAttendanceUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8061B7D1B8D5D0042DF293 /* libPods-eAttendanceUITests.a */; };
+		D268E6062D76C3B53E144D3E /* libPods-eAttendanceTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E3CF5DADBE0D918DABA713 /* libPods-eAttendanceTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +64,34 @@
 		3F57CFC71FD343E300E8A68B /* eAttendanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eAttendanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F57CFCB1FD343E300E8A68B /* eAttendanceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eAttendanceUITests.m; sourceTree = "<group>"; };
 		3F57CFCD1FD343E300E8A68B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F57CFDC1FD346A900E8A68B /* RegisteredClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisteredClass.h; sourceTree = "<group>"; };
+		3F57CFDD1FD346A900E8A68B /* RegisteredClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisteredClass.m; sourceTree = "<group>"; };
+		3F57CFDF1FD347E700E8A68B /* RegisteredClassModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisteredClassModel.h; sourceTree = "<group>"; };
+		3F57CFE01FD347E700E8A68B /* RegisteredClassModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisteredClassModel.m; sourceTree = "<group>"; };
+		3F57CFE21FD365CD00E8A68B /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		3F57CFE31FD365CD00E8A68B /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		3F57CFE51FD39F4B00E8A68B /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		3F57CFE61FD39F4B00E8A68B /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		3F57CFEE1FD3B9FA00E8A68B /* ValidateLocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValidateLocationController.h; sourceTree = "<group>"; };
+		3F57CFEF1FD3B9FA00E8A68B /* ValidateLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValidateLocationController.m; sourceTree = "<group>"; };
+		3F57CFF11FD3CE3100E8A68B /* TakePhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakePhotoController.h; sourceTree = "<group>"; };
+		3F57CFF21FD3CE3100E8A68B /* TakePhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakePhotoController.m; sourceTree = "<group>"; };
+		3F57CFF41FD3CE5500E8A68B /* SuccessController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuccessController.h; sourceTree = "<group>"; };
+		3F57CFF51FD3CE5500E8A68B /* SuccessController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuccessController.m; sourceTree = "<group>"; };
+		3F57CFF81FD400C100E8A68B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3F57CFFA1FD4060200E8A68B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3F57CFFF1FD40B0600E8A68B /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
+		3F57D00C1FD4934600E8A68B /* FacebookController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookController.h; sourceTree = "<group>"; };
+		3F57D00D1FD4934600E8A68B /* FacebookController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookController.m; sourceTree = "<group>"; };
+		52CC0EDC20488B6C02DAF162 /* Pods-eAttendanceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eAttendanceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-eAttendanceTests/Pods-eAttendanceTests.release.xcconfig"; sourceTree = "<group>"; };
+		5699C1CFAD2DE4092DD8774A /* Pods-eAttendanceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eAttendanceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eAttendanceTests/Pods-eAttendanceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E075B0C7508BD46F28970F8 /* Pods-eAttendance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eAttendance.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eAttendance/Pods-eAttendance.debug.xcconfig"; sourceTree = "<group>"; };
+		75BDFCDD616406E6AB490B7A /* Pods-eAttendance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eAttendance.release.xcconfig"; path = "Pods/Target Support Files/Pods-eAttendance/Pods-eAttendance.release.xcconfig"; sourceTree = "<group>"; };
+		CA8061B7D1B8D5D0042DF293 /* libPods-eAttendanceUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-eAttendanceUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFBE03C1A4A60933B5065DEE /* Pods-eAttendanceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eAttendanceUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eAttendanceUITests/Pods-eAttendanceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E0E3CF5DADBE0D918DABA713 /* libPods-eAttendanceTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-eAttendanceTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2C612C6A1D1152FA341CEAC /* Pods-eAttendanceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eAttendanceUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-eAttendanceUITests/Pods-eAttendanceUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E7F1F31BBCDC7A1A9CCBB42B /* libPods-eAttendance.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-eAttendance.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +99,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F57CFFB1FD4060200E8A68B /* CoreLocation.framework in Frameworks */,
+				3F57CFF91FD400C100E8A68B /* MapKit.framework in Frameworks */,
+				0CA9A901F3AFEB03F2263DFD /* libPods-eAttendance.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D268E6062D76C3B53E144D3E /* libPods-eAttendanceTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A04F7ACCE190E1CA5A42922 /* libPods-eAttendanceUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +127,13 @@
 		3F57CF9A1FD343E300E8A68B = {
 			isa = PBXGroup;
 			children = (
+				3F57CFFF1FD40B0600E8A68B /* Location.gpx */,
 				3F57CFA51FD343E300E8A68B /* eAttendance */,
 				3F57CFBF1FD343E300E8A68B /* eAttendanceTests */,
 				3F57CFCA1FD343E300E8A68B /* eAttendanceUITests */,
 				3F57CFA41FD343E300E8A68B /* Products */,
+				3F57CFF71FD400C100E8A68B /* Frameworks */,
+				6D743407E60D0787C52A3E01 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,13 +150,12 @@
 		3F57CFA51FD343E300E8A68B /* eAttendance */ = {
 			isa = PBXGroup;
 			children = (
+				3F57CFDB1FD3461B00E8A68B /* Model */,
+				3F57CFDA1FD3461800E8A68B /* View */,
+				3F57CFD91FD3461300E8A68B /* Controller */,
 				3F57CFA91FD343E300E8A68B /* AppDelegate.h */,
 				3F57CFAA1FD343E300E8A68B /* AppDelegate.m */,
-				3F57CFAC1FD343E300E8A68B /* ViewController.h */,
-				3F57CFAD1FD343E300E8A68B /* ViewController.m */,
-				3F57CFAF1FD343E300E8A68B /* Main.storyboard */,
 				3F57CFB21FD343E300E8A68B /* Assets.xcassets */,
-				3F57CFB41FD343E300E8A68B /* LaunchScreen.storyboard */,
 				3F57CFB71FD343E300E8A68B /* Info.plist */,
 				3F57CFA61FD343E300E8A68B /* Supporting Files */,
 			);
@@ -140,6 +188,72 @@
 			path = eAttendanceUITests;
 			sourceTree = "<group>";
 		};
+		3F57CFD91FD3461300E8A68B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3F57CFAC1FD343E300E8A68B /* ViewController.h */,
+				3F57CFAD1FD343E300E8A68B /* ViewController.m */,
+				3F57CFE21FD365CD00E8A68B /* TableViewController.h */,
+				3F57CFE31FD365CD00E8A68B /* TableViewController.m */,
+				3F57CFE51FD39F4B00E8A68B /* AddViewController.h */,
+				3F57CFE61FD39F4B00E8A68B /* AddViewController.m */,
+				3F57CFEE1FD3B9FA00E8A68B /* ValidateLocationController.h */,
+				3F57CFEF1FD3B9FA00E8A68B /* ValidateLocationController.m */,
+				3F57CFF11FD3CE3100E8A68B /* TakePhotoController.h */,
+				3F57CFF21FD3CE3100E8A68B /* TakePhotoController.m */,
+				3F57CFF41FD3CE5500E8A68B /* SuccessController.h */,
+				3F57CFF51FD3CE5500E8A68B /* SuccessController.m */,
+				3F57D00C1FD4934600E8A68B /* FacebookController.h */,
+				3F57D00D1FD4934600E8A68B /* FacebookController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3F57CFDA1FD3461800E8A68B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3F57CFAF1FD343E300E8A68B /* Main.storyboard */,
+				3F57CFB41FD343E300E8A68B /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3F57CFDB1FD3461B00E8A68B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F57CFDC1FD346A900E8A68B /* RegisteredClass.h */,
+				3F57CFDD1FD346A900E8A68B /* RegisteredClass.m */,
+				3F57CFDF1FD347E700E8A68B /* RegisteredClassModel.h */,
+				3F57CFE01FD347E700E8A68B /* RegisteredClassModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3F57CFF71FD400C100E8A68B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F57CFFA1FD4060200E8A68B /* CoreLocation.framework */,
+				3F57CFF81FD400C100E8A68B /* MapKit.framework */,
+				E7F1F31BBCDC7A1A9CCBB42B /* libPods-eAttendance.a */,
+				E0E3CF5DADBE0D918DABA713 /* libPods-eAttendanceTests.a */,
+				CA8061B7D1B8D5D0042DF293 /* libPods-eAttendanceUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D743407E60D0787C52A3E01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E075B0C7508BD46F28970F8 /* Pods-eAttendance.debug.xcconfig */,
+				75BDFCDD616406E6AB490B7A /* Pods-eAttendance.release.xcconfig */,
+				5699C1CFAD2DE4092DD8774A /* Pods-eAttendanceTests.debug.xcconfig */,
+				52CC0EDC20488B6C02DAF162 /* Pods-eAttendanceTests.release.xcconfig */,
+				DFBE03C1A4A60933B5065DEE /* Pods-eAttendanceUITests.debug.xcconfig */,
+				E2C612C6A1D1152FA341CEAC /* Pods-eAttendanceUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +261,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F57CFD01FD343E300E8A68B /* Build configuration list for PBXNativeTarget "eAttendance" */;
 			buildPhases = (
+				B112FD1249F11ED710AAE334 /* [CP] Check Pods Manifest.lock */,
 				3F57CF9F1FD343E300E8A68B /* Sources */,
 				3F57CFA01FD343E300E8A68B /* Frameworks */,
 				3F57CFA11FD343E300E8A68B /* Resources */,
+				997829CFE2A31D48F0184994 /* [CP] Embed Pods Frameworks */,
+				2150AD638BEE45A4B572EAA3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +281,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F57CFD31FD343E300E8A68B /* Build configuration list for PBXNativeTarget "eAttendanceTests" */;
 			buildPhases = (
+				C01733DD74EE8C307799A317 /* [CP] Check Pods Manifest.lock */,
 				3F57CFB81FD343E300E8A68B /* Sources */,
 				3F57CFB91FD343E300E8A68B /* Frameworks */,
 				3F57CFBA1FD343E300E8A68B /* Resources */,
+				1E926816AB0A1972E0BED3E3 /* [CP] Embed Pods Frameworks */,
+				D2338656D2DD1F2ABEB4A11F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +302,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F57CFD61FD343E300E8A68B /* Build configuration list for PBXNativeTarget "eAttendanceUITests" */;
 			buildPhases = (
+				7DE2A5A1C85EE914B7FD7CA6 /* [CP] Check Pods Manifest.lock */,
 				3F57CFC31FD343E300E8A68B /* Sources */,
 				3F57CFC41FD343E300E8A68B /* Frameworks */,
 				3F57CFC51FD343E300E8A68B /* Resources */,
+				E7246323CE274B54B8826987 /* [CP] Embed Pods Frameworks */,
+				DCFE45FBCE8FDDA29CE37744 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,7 +325,7 @@
 		3F57CF9B1FD343E300E8A68B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Woonghee Lee";
 				TargetAttributes = {
 					3F57CFA21FD343E300E8A68B = {
@@ -268,13 +391,159 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E926816AB0A1972E0BED3E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eAttendanceTests/Pods-eAttendanceTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2150AD638BEE45A4B572EAA3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eAttendance/Pods-eAttendance-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DE2A5A1C85EE914B7FD7CA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		997829CFE2A31D48F0184994 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eAttendance/Pods-eAttendance-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B112FD1249F11ED710AAE334 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C01733DD74EE8C307799A317 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D2338656D2DD1F2ABEB4A11F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eAttendanceTests/Pods-eAttendanceTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCFE45FBCE8FDDA29CE37744 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eAttendanceUITests/Pods-eAttendanceUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7246323CE274B54B8826987 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eAttendanceUITests/Pods-eAttendanceUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3F57CF9F1FD343E300E8A68B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F57CFE11FD347E700E8A68B /* RegisteredClassModel.m in Sources */,
+				3F57CFE41FD365CD00E8A68B /* TableViewController.m in Sources */,
+				3F57CFDE1FD346A900E8A68B /* RegisteredClass.m in Sources */,
+				3F57CFE71FD39F4B00E8A68B /* AddViewController.m in Sources */,
 				3F57CFAE1FD343E300E8A68B /* ViewController.m in Sources */,
+				3F57D00E1FD4934600E8A68B /* FacebookController.m in Sources */,
+				3F57CFF31FD3CE3100E8A68B /* TakePhotoController.m in Sources */,
 				3F57CFAB1FD343E300E8A68B /* AppDelegate.m in Sources */,
+				3F57CFF61FD3CE5500E8A68B /* SuccessController.m in Sources */,
+				3F57CFF01FD3B9FA00E8A68B /* ValidateLocationController.m in Sources */,
 				3F57CFA81FD343E300E8A68B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,15 +609,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -388,15 +665,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -422,8 +707,14 @@
 		};
 		3F57CFD11FD343E300E8A68B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E075B0C7508BD46F28970F8 /* Pods-eAttendance.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = eAttendance/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.woonghel.eAttendance;
@@ -433,8 +724,14 @@
 		};
 		3F57CFD21FD343E300E8A68B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75BDFCDD616406E6AB490B7A /* Pods-eAttendance.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = eAttendance/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.woonghel.eAttendance;
@@ -444,6 +741,7 @@
 		};
 		3F57CFD41FD343E300E8A68B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5699C1CFAD2DE4092DD8774A /* Pods-eAttendanceTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = eAttendanceTests/Info.plist;
@@ -456,6 +754,7 @@
 		};
 		3F57CFD51FD343E300E8A68B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52CC0EDC20488B6C02DAF162 /* Pods-eAttendanceTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = eAttendanceTests/Info.plist;
@@ -468,6 +767,7 @@
 		};
 		3F57CFD71FD343E300E8A68B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFBE03C1A4A60933B5065DEE /* Pods-eAttendanceUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = eAttendanceUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -479,6 +779,7 @@
 		};
 		3F57CFD81FD343E300E8A68B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2C612C6A1D1152FA341CEAC /* Pods-eAttendanceUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = eAttendanceUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -507,6 +808,7 @@
 				3F57CFD21FD343E300E8A68B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F57CFD31FD343E300E8A68B /* Build configuration list for PBXNativeTarget "eAttendanceTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +817,7 @@
 				3F57CFD51FD343E300E8A68B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F57CFD61FD343E300E8A68B /* Build configuration list for PBXNativeTarget "eAttendanceUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +826,7 @@
 				3F57CFD81FD343E300E8A68B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

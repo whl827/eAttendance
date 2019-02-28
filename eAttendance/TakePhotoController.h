@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TakePhotoController : UIViewController
+@interface TakePhotoController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+//@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (strong, nonatomic) IBOutlet UIImageView *imageView;
+
 
 @end

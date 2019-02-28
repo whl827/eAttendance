@@ -17,6 +17,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+//    FBSDKLoginButton *loginButton = [[FBSDKLoginButton alloc] init];
+//    // Optional: Place the button in the center of your view.
+//    loginButton.center = self.view.center;
+//    [self.view addSubview:loginButton];
+}
+- (IBAction)facebookButtonPressed:(id)sender {
+    
+//    FBSDKLoginManager *loginManager = [[FBSDKLoginManager alloc] init];
+
+}
+
+- (void) fetchUserInfo:(NSString *)userID{
+    
 }
 
 - (void)didReceiveMemoryWarning {
